@@ -1,3 +1,5 @@
+# Ned Kim got a theme from freehtml5.co and modified the theme to use it for wedding invitation.  
+#
 
 TITLE: 
 Fotografy - One Page Responsive Free HTML5 template
