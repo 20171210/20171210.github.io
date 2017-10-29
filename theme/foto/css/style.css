@@ -404,7 +404,7 @@ h3 {
 }
 #fh5co-home .flexslider .slides li {
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 /*  background-attachment: fixed; */
 /*  position:relative; */
 /*  background: center; */
