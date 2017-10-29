@@ -405,6 +405,9 @@ h3 {
 #fh5co-home .flexslider .slides li {
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+/*  position:relative; */
+/*  background: center; */
 }
 #fh5co-home .flexslider .fh5co-overlay {
   position: absolute;
