@@ -502,7 +502,7 @@ h3 {
   transform: translateX(0px);
 }
 
-#fh5co-portfolio,
+
 #fh5co-about,
 #fh5co-contact,
 #fh5co-testimony,
@@ -510,6 +510,12 @@ h3 {
 #fh5co-content {
   padding: 7em 0;
 }
+
+#fh5co-portfolio {
+  padding: 3em 0;
+}
+
+
 @media screen and (max-width: 768px) {
   #fh5co-portfolio,
   #fh5co-about,
@@ -525,15 +531,19 @@ h3 {
   margin-bottom: 30px;
 }
 
-/*
+
 #fh5co-portfolio {
-  background: #eee;
+  background: #fff4f5;
 }
-*/
+
+#fh5co-gallery {
+  background: #fff;
+}
 
 #fh5co-about {
   background: #444853;
 }
+
 #fh5co-about h2 {
   color: #fff;
 }
@@ -829,6 +839,7 @@ h3 {
   font-weight: 700;
   opacity: .4;
   margin-bottom: 20px;
+  background: ;
 }
 
 
