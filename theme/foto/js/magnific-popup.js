@@ -4,7 +4,7 @@
 
 // Option 
 $(document).ready(function() {
-	$('.popup-gallery').magnificPopup({
+	$('.img-popup').magnificPopup({
 		delegate: 'a',
 		type: 'image',
 		tLoading: 'Loading image #%curr%...',
