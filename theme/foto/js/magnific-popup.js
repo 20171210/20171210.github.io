@@ -5,7 +5,7 @@
 // Option 
 $(document).ready(function() {
 	$('.img-popup').magnificPopup({
-		delegate: 'a',
+	//	delegate: 'a',
 		type: 'image',
 		tLoading: 'Loading image #%curr%...',
 		mainClass: 'mfp-img-mobile',
@@ -14,6 +14,13 @@ $(document).ready(function() {
 			navigateByImgClick: true,
 			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
 		},
+//		zoom: {
+//			enabled: true,
+//			duration: 300,
+//			easing: 'ease-in-out',
+//			opener: function(openerElement) {
+//			return openerElement.is('img') ? openerElement : openerElement.find('img');
+//		},
 		image: {
 			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
 			titleSrc: function(item) {
