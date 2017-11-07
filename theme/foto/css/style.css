@@ -5,12 +5,13 @@
   font-weight: normal;
   font-style: normal;
 }
+
 html {
   background: #f7f7f7;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "IropkeBatang", "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.5;
@@ -49,7 +50,7 @@ a:hover, a:focus, a:active {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "IropkeBatang", "Roboto Slab", sans-serif;
   color: #000;
 }
 
@@ -60,7 +61,7 @@ p {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "IropkeBatang", "Roboto Slab", sans-serif;
   font-size: 12px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -206,7 +207,9 @@ p {
   box-shadow: none;
   border-color: #f9ad81;
 }
-
+.ned-underl {
+  border-bottom: 2px solid #f9ad81;
+}
 #fh5co-header {
   position: absolute;
   top: 20px;
@@ -233,7 +236,7 @@ p {
   }
 }
 #fh5co-header #fh5co-logo a {
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "IropkeBatang", "Roboto Slab", sans-serif;
   font-size: 30px;
   color: #fff;
 }
@@ -263,7 +266,7 @@ p {
   display: inline;
 }
 #fh5co-header #fh5co-main-nav ul li a {
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "IropkeBatang", "Roboto Slab", sans-serif;
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
   margin-left: 30px;
@@ -292,12 +295,12 @@ p {
   line-height: 1.2;
 }
 #fh5co-header.navbar-fixed-top #fh5co-logo a {
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "IropkeBatang", "Roboto Slab", sans-serif;
   font-size: 30px;
   color: #000;
 }
 #fh5co-header.navbar-fixed-top #fh5co-main-nav ul li a {
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "IropkeBatang", "Roboto Slab", sans-serif;
   color: rgba(0, 0, 0, 0.8);
   text-decoration: none;
   margin-left: 30px;
@@ -335,14 +338,14 @@ p {
 }
 
 h2 { 
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "IropkeBatang", "Roboto Slab", sans-serif;
   font-size: 40px;
   font-weight: 100;
   color: #fff;
 }
 
 h3 { 
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "IropkeBatang", "Roboto Slab", sans-serif;
   font-size: 30px;
   font-weight: 400;
   color: #eee;
@@ -352,7 +355,7 @@ h3 {
 #fh5co-home .flexslider .fh5co-text h1 {
   margin: 0 0 30px 0;
   padding: 0;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "IropkeBatang", "Roboto Slab", sans-serif;
   font-size: 50px;
   font-weight: 400;
   color: #fff;
@@ -375,7 +378,7 @@ h3 {
   margin-top: 30px;
 }
 #fh5co-home .flexslider .fh5co-text .fh5co-go a {
-  font-family: "Roboto", sans-serif;
+  font-family: "IropkeBatang", "Roboto", sans-serif;
   font-size: 13px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -536,9 +539,12 @@ h3 {
 #fh5co-about,
 #fh5co-contact,
 #fh5co-testimony,
-#fh5co-gallery,
 #fh5co-content {
   padding: 7em 0;
+}
+
+#fh5co-gallery {
+  padding: 1em 0;
 }
 
 #fh5co-portfolio {
@@ -678,7 +684,7 @@ h3 {
 #fh5co-testimony .flexslider .slides li blockquote p {
   font-size: 40px;
   line-height: 1.5;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "IropkeBatang", "Roboto Slab", sans-serif;
   color: white !important;
 }
 @media screen and (max-width: 768px) {
@@ -691,7 +697,7 @@ h3 {
   display: block;
   padding-top: 20px;
   font-size: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: "IropkeBatang", "Roboto", sans-serif;
   font-style: normal;
   color: rgba(255, 255, 255, 0.7);
 }
@@ -858,17 +864,17 @@ h3 {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #41454f;
-  font-family: "Roboto", sans-serif;
+  font-family: "IropkeBatang", "Roboto", sans-serif;
   font-weight: 700;
   opacity: .4;
   margin-bottom: 20px;
 }
 .ned-section-venue {
-  font-size: 26px;
+  font-size: 30px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #41454f;
-  font-family: "Roboto", sans-serif;
+  color: #Df589b;
+  font-family: "IropkeBatang", "Roboto", sans-serif;
   font-weight: 700;
   opacity: .4;
   margin-bottom: 20px;
@@ -881,7 +887,7 @@ h3 {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #41454f;
-  font-family: "Roboto", sans-serif;
+  font-family: "IropkeBatang", "Roboto", sans-serif;
   font-weight: 700;
   opacity: .4;
   margin-bottom: 20px;
