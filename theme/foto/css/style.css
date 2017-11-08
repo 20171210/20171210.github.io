@@ -319,8 +319,8 @@ p {
  * Flexslider
  */
 #fh5co-home {
-  min-height: 700px;
-  background: #fff url(../images/loader.gif) no-repeat center center;
+/*  min-height: 700px; */
+  background: #fff4f5 url(../images/loader.gif) no-repeat center center;
 }
 #fh5co-home .flexslider {
   border: none;
@@ -377,6 +377,9 @@ h3 {
     font-size: 26px;
   }
 }
+#fh5co-home .fh5co-go {
+  margin-top: 15px;
+}
 #fh5co-home .flexslider .fh5co-text .fh5co-go {
   margin-top: 30px;
 }
@@ -411,11 +414,28 @@ h3 {
 #fh5co-home .flexslider .slides li {
   background-repeat: no-repeat;
   background-size: cover;
-/*  background-attachment: fixed; 
+/*
+  background-attachment: fixed; 
   background-position: center; 
-  position:relative; */
-/*  background: center; */
+  position:relative; 
+  background: center; 
+*/
 }
+
+@media screen and (max-width: 768px) {
+  #fh5co-home .flexslider .slides li {
+    background-repeat: no-repeat;
+/*
+    background-size: 100% 100%;
+*/
+    background-position: -100px 0;
+    background-clip: content-box;
+
+  }
+}
+
+
+
 #fh5co-home .flexslider .fh5co-overlay {
   position: absolute;
   z-index: 3;
@@ -514,6 +534,7 @@ h3 {
   padding-top: 20px;
 /* margin-top: 20px; */
   padding-bottom: 20px;
+  border-radius: 10px;
 }
 
 .wed-events .ceremony-bg {
@@ -563,7 +584,7 @@ h3 {
   #fh5co-testimony,
   #fh5co-gallery,
   #fh5co-content {
-    padding: 4em 0;
+    padding: 2em 0;
   }
 }
 
@@ -885,10 +906,11 @@ h3 {
 }
 
 .ned-date-highlight {
-  font-size: 24px;
+  font-size: 26px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #bf387b;
+/*  color: #bf387b; */
+  color: #444; 
   font-family: "IropkeBatang", "Roboto", sans-serif;
   font-weight: 700;
   margin-bottom: 20px;
@@ -915,11 +937,18 @@ h3 {
 .ned-lead {
   font-size: 22px;
 }
+
+.ned-lead-name {
+  font-size: 25px;
+}
 @media screen and (max-width: 768px) {
   .fh5co-lead {
     font-size: 20px;
   }
   .ned-lead {
+    font-size: 20px;
+  }
+  .ned-lead-name {
     font-size: 20px;
   }
 }
@@ -928,6 +957,9 @@ h3 {
     font-size: 18px;
   }
   .ned-lead {
+    font-size: 18px;
+  }
+  .ned-lead-name {
     font-size: 18px;
   }
 }
