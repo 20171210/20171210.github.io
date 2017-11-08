@@ -371,7 +371,10 @@ h3 {
 }
 @media screen and (max-width: 992px) {
   #fh5co-home .flexslider .fh5co-text h1 {
-    font-size: 30px;
+    font-size: 32px;
+  }
+  #fh5co-home .flexslider .fh5co-text h2 {
+    font-size: 26px;
   }
 }
 #fh5co-home .flexslider .fh5co-text .fh5co-go {
