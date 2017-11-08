@@ -421,19 +421,30 @@ h3 {
   background: center; 
 */
 }
-
 @media screen and (max-width: 768px) {
   #fh5co-home .flexslider .slides li {
     background-repeat: no-repeat;
 /*
     background-size: 100% 100%;
 */
-    background-position: -100px 0;
+/* position value is going to be affect slide images */
+    background-position: 500% 0;
     background-clip: content-box;
 
   }
 }
+/*
+@media screen and (min-width: 768px) {
+  #fh5co-home .flexslider .slides li {
+    background-repeat: no-repeat;
+    background-size:cover; 
+    background-position: 50% 0;
 
+    background-size: 100% 100%;
+
+  }
+}
+*/
 
 
 #fh5co-home .flexslider .fh5co-overlay {
