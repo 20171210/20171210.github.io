@@ -881,6 +881,19 @@ h3 {
   background: ;
 }
 
+.ned-date-highlight {
+  font-size: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #bf387b;
+  font-family: "IropkeBatang", "Roboto", sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+  background: ;
+}
+
+
+
 
 .section-heading .fh5co-section-title {
   font-size: 11px;
@@ -905,6 +918,14 @@ h3 {
   }
   .ned-lead {
     font-size: 20px;
+  }
+}
+@media screen and (max-device-width: 768px) {
+  .fh5co-lead {
+    font-size: 18px;
+  }
+  .ned-lead {
+    font-size: 18px;
   }
 }
 
