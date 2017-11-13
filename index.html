@@ -12,6 +12,8 @@
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
 	<meta name="author" content="FREEHTML5.CO" />
 
+	<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+
   <!-- 
 	//////////////////////////////////////////////////////
 
@@ -323,6 +325,7 @@ function copy_to_clipboard(str) {
 <a id="kakao-link-btn" href="javascript:;">
 <img src="//developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png" class="animate-box" style="padding-bottom:5px;" />
 </a>
+
 <script type='text/javascript'>
   //<![CDATA[
     // // 사용할 앱의 JavaScript 키를 설정해 주세요.
@@ -332,26 +335,58 @@ function copy_to_clipboard(str) {
       container: '#kakao-link-btn',
       objectType: 'feed',
       content: {
-        title: '태형과 수진의 청첩장',
-        description: '2017년 12월 10일 11시 삼성동 도심공항터미널 3층 소노펠리체',
-        imageUrl: 'https://20171210.github.io/images/invitation.png',
+        title: '딸기 치즈 케익',
+        description: '#케익 #딸기 #삼평동 #카페 #분위기 #소개팅',
+        imageUrl: 'http://mud-kage.kakao.co.kr/dn/Q2iNx/btqgeRgV54P/VLdBs9cvyn8BJXB3o7N8UK/kakaolink40_original.png',
         link: {
-          mobileWebUrl: 'https://20171210.github.io/',
-          webUrl: 'https://20171210.github.io/'
+          mobileWebUrl: 'https://developers.kakao.com',
+          webUrl: 'https://developers.kakao.com'
         }
       },
-      buttons: [{
+      social: {
+        likeCount: 286,
+        commentCount: 45,
+        sharedCount: 845
+      },
+      buttons: [
+        {
           title: '웹으로 보기',
           link: {
-            mobileWebUrl: 'https://20171210.github.io/',
-            webUrl: 'https://20171210.github.io/'
+            mobileWebUrl: 'https://developers.kakao.com',
+            webUrl: 'https://developers.kakao.com'
           }
-        
-      }]
+        },
+        {
+          title: '앱으로 보기',
+          link: {
+            mobileWebUrl: 'https://developers.kakao.com',
+            webUrl: 'https://developers.kakao.com'
+          }
+        }
+      ]
     });
   //]]>
 </script>
-
+<!--
+    <a id="kakao-login-btn"></a>
+    <a href="http://developers.kakao.com/logout"></a>
+    <script type='text/javascript'>
+      //<![CDATA[
+        // 사용할 앱의 JavaScript 키를 설정해 주세요.
+        Kakao.init('d59d2d2097aebca129dfdee7206ac0ca');
+        // 카카오 로그인 버튼을 생성합니다.
+        Kakao.Auth.createLoginButton({
+          container: '#kakao-login-btn',
+          success: function(authObj) {
+            alert(JSON.stringify(authObj));
+          },
+          fail: function(err) {
+             alert(JSON.stringify(err));
+          }
+        });
+      //]]>
+    </script>
+-->
 
 						<p class="ned-lead animate-box"> 카카오톡 공유하기 
 <!-- - 신랑 신부 --> <br><br>
