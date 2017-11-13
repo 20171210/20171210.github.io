@@ -578,7 +578,6 @@ h3 {
   font-size: 14px;
 }
 
-#fh5co-about,
 #fh5co-contact,
 #fh5co-testimony,
 #fh5co-content {
@@ -589,6 +588,7 @@ h3 {
   padding: 1em 0;
 }
 
+#fh5co-about,
 #fh5co-portfolio {
   padding: 3em 0;
 /*  padding-bottom: 8em; */
